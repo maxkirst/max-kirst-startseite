@@ -237,7 +237,7 @@ window.I18N = {
     "career.item5.tag2": "Customer Consulting",
     "career.item5.tag3": "Foundation",
 
-    "contact.hero.title": "Let’s connect.<br />Send me a message anytime.",
+    "contact.hero.title": "Let’s connect.<br />Have a thought? I promise to reply before the AI does.",
     "contact.hero.role": "Solution Sales Manager AI @",
     "contact.hero.note": "No buzzword bingo. Just the next useful move.",
     "contact.hero.saveContact": "Save contact",
