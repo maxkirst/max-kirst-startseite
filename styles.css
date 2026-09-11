@@ -91,6 +91,7 @@ img {
    and a hairline shadow along the bottom to read as a refractive surface
    rather than a flat tinted rectangle, plus a soft outer shadow for lift */
 .header-pill {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
@@ -111,9 +112,10 @@ img {
 }
 
 .header-message {
-  grid-column: 1;
-  grid-row: 1;
-  justify-self: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: var(--text);
   font-size: 0.95rem;
   font-weight: 700;
